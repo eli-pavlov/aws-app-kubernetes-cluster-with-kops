@@ -7,7 +7,7 @@ pipeline {
 */
     environment {
         registry = "elipavlov/vproappdock"
-        registryCredential = DockerHub_credentials
+        registryCredential = "DockerHub_credentials"
         ARTVERSION = "${env.BUILD_ID}"
     }
     stages{
