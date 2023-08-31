@@ -1,23 +1,29 @@
-## Deploying Social Media on AWS using Kops, Jenkins, Docker, and Kubernetes
+## AWS Kubernetes Automation with Helm, Kops, and Ansible
+This repository demonstrates the process of automating the setup of a Kubernetes cluster on Amazon Web Services (AWS) using Helm for package management, Kops for cluster provisioning, and Ansible for configuration management. By combining these tools, you can streamline the deployment and management of Kubernetes clusters on AWS.
 
-This repository provides resources to help you deploy a Social Media App locally using Jenkins for continuous integration, Docker for containerization, andKubernetes for orchestration. By following this guide, you'll be able to set up an environment that mimics a production-like deployment on your local machine.
+## Overview
+Deploying and managing Kubernetes clusters on AWS involves multiple steps, from provisioning the infrastructure to configuring the cluster components. This repository provides a structured approach to automating these processes, resulting in consistent, repeatable, and manageable Kubernetes deployments.
 
-## Table of Contents:
+## Features
+# Helm:
+Helm simplifies the deployment and management of Kubernetes applications by providing package management capabilities and pre-defined charts. It enables you to define, install, and upgrade complex applications on your Kubernetes clusters.
 
-Prerequisites
-Getting Started
-Setting Up Jenkins
-Creating Docker Images
-Configuring Kubernetes
-Deploying the Social Media App
-Cleaning Up
-Troubleshooting
-Contributing
-License
-Prerequisites
-Before you begin, ensure you have the following tools installed:
+# Kops:
+Kops is a tool for automating the provisioning and management of Kubernetes clusters on AWS. It handles the creation and configuration of cluster resources, making it easier to manage production-ready clusters.
 
-Jenkins
-Docker
-Minikube
-kubectl
+# Ansible:
+Ansible is used for configuration management, enabling you to define the desired state of your cluster components and manage configuration changes over time.
+
+## License
+This project is licensed under the GNU General Public License v3.0.
+
+## Maintainers
+This project is maintained by:
+
+Eli Pavlov
+
+Email: pavlov.eli@gmail.com
+
+GitHub: github.com/eli-pavlov
+
+Feel free to reach out with any questions or suggestions regarding this project. Your feedback is highly appreciated!
