@@ -1,24 +1,22 @@
-## Prerequisites
-- JDK 1.8 or later
-- Maven 3 or later
-- MySQL 5.6 or later
+Deploying Social Media App Locally using Jenkins, Docker, and Kubernetes
+This repository provides a step-by-step guide and necessary resources to help you deploy a Social Media App locally using Jenkins for continuous integration, Docker for containerization, and Kubernetes for orchestration. By following this guide, you'll be able to set up an environment that mimics a production-like deployment on your local machine.
 
-## Technologies 
-- Spring MVC
-- Spring Security
-- Spring Data JPA
-- Maven
-- JSP
-- MySQL
-## Database
-Here,we used Mysql DB 
-MSQL DB Installation Steps for Linux ubuntu 14.04:
-- $ sudo apt-get update
-- $ sudo apt-get install mysql-server
+## Table of Contents:
 
-Then look for the file :
-- /src/main/resources/accountsdb
-- accountsdb.sql file is a mysql dump file.we have to import this dump to mysql db server
-- > mysql -u <user_name> -p accounts < accountsdb.sql
+Prerequisites
+Getting Started
+Setting Up Jenkins
+Creating Docker Images
+Configuring Kubernetes
+Deploying the Social Media App
+Cleaning Up
+Troubleshooting
+Contributing
+License
+Prerequisites
+Before you begin, ensure you have the following tools installed:
 
-
+Jenkins
+Docker
+Minikube
+kubectl
