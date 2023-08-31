@@ -1,6 +1,6 @@
 ## Deploying Social Media App Locally using Jenkins, Docker, and Kubernetes
 
-This repository provides a step-by-step guide and necessary resources to help you deploy a Social Media App locally using Jenkins for continuous integration, Docker for containerization, andKubernetes for orchestration. By following this guide, you'll be able to set up an environment that mimics a production-like deployment on your local machine.
+This repository provides resources to help you deploy a Social Media App locally using Jenkins for continuous integration, Docker for containerization, andKubernetes for orchestration. By following this guide, you'll be able to set up an environment that mimics a production-like deployment on your local machine.
 
 ## Table of Contents:
 
