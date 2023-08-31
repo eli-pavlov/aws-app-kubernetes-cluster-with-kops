@@ -1,5 +1,5 @@
 ## AWS Kubernetes Automation with Helm, Kops, and Ansible
-This repository demonstrates the process of automating the setup of a Kubernetes cluster on Amazon Web Services (AWS) using Helm for package management, Kops for cluster provisioning, and Ansible for configuration management. By combining these tools, you can streamline the deployment and management of Kubernetes clusters on AWS.
+This repository deploys an app on AWS together with automating the setup of a Kubernetes cluster on Amazon Web Services (AWS) using Helm for package management, Kops for cluster provisioning, and Ansible for configuration management. By combining these tools, you can streamline the deployment and management of Kubernetes clusters on AWS.
 
 ## Overview
 Deploying and managing Kubernetes clusters on AWS involves multiple steps, from provisioning the infrastructure to configuring the cluster components. This repository provides a structured approach to automating these processes, resulting in consistent, repeatable, and manageable Kubernetes deployments.
